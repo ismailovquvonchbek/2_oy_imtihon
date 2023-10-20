@@ -41,3 +41,12 @@
         width: 100%;
     }
 }
+
+
+@media only screen and (max-width: 660px) {
+    .ready__list {
+        flex-direction: column;
+        align-items: center;
+        gap: 58px;
+    }
+}
